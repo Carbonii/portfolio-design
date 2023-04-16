@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Work+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+.hero-section{
+    width: 100%;
+    height: auto;
+    padding: 6.25rem 7.5rem 8.25rem 7.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 3rem;
+    background-image: url(./Imagess/bground.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+}
+
+.left-hero-container{
+    max-width: 50%;
+    height: auto;
+}
+
+.right-hero-container{
+    max-width: 50%;
+    height: auto;
+}
+
+.hero-title{
+    width: fit-content;
+    height: auto;
+}
+
+.hero-text{
+    font-size: 3rem;
+    color: #333;
+}
+
+.hero-discrption{
+    width: fit-content;
+    height: auto;
+    margin: 2rem 0 2rem 0;
+    padding: 2rem 0 2rem 0;
+}
+
+.discription-text{
+    font-size: 1rem solid;
+    color: #878787;
+}
+
+.hero-button-container{
+    width: fit-content;
+    height: auto;
+}
+
+.hero-button{
+    font-size: 1rem;
+    color: #f8f8f8;
+    padding: 10px 2rem 10px 2rem;
+    border-radius: 14px;
+    background-color: #A45050;
+    border-color: #A45050;
+}
+
+.hero-image-container{
+    width: fit-content;
+    height: auto;
+}
+
+.hero-image{
+    border-radius: 1rem;
+}

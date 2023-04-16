@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Work+Sans&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+.header-section{
+    padding: 2rem 7.5rem 2rem 7.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-container{
+    width: fit-content;
+    height: auto;
+}
+
+.brand-name{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navigation-menu{
+    width: fit-content;
+    height: auto;
+}
+
+.unordered-list{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5rem;
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.unordered-list li a{
+    text-decoration: none;
+    color: black;
+}
+
+.unordered-list li a:hover{
+    text-decoration: line-through;
+}
+
+.hero-section{
+    max-width: 100%;
+    height: auto;
+    padding: 1rem 7.5rem 1rem 7.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.left-hero-section{
+    max-width: 45.75rem;
+    height: auto;
+    background-image: url(./Imagess/backgroundimage\ \(1\).svg);
+    padding: 3.1rem;
+    border-radius: 1.875rem;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.left-text-container{
+    width: fit-content;
+    height: auto;
+}
+
+.hello-content{
+    color: #131325;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.left-text-content-container{
+    width: fit-content;
+    height: auto;
+}
+
+.intro-content{
+    color: #131325;
+    font-size: 1rem;
+    font-weight: 400; 
+    margin: 2rem 0 2rem 0;
+    padding: 2rem 0 2rem 0;
+}
+
+.left-bottom-content-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.button-container{
+    width: fit-content;
+    height: auto;
+    border-radius: 2rem;
+
+}
+
+.thebutn{
+    font-size: 1.25rem;
+    background-color: #131325;
+    border-style: none;
+    padding: 1rem 2.25rem 1rem 2.25rem;
+    border-radius: 2rem;
+    color: aliceblue;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+
+.thebutn:hover{
+    background-color: #0C0C33;
+    transform: translateX(2px);
+}
+
+
+.social-media-container{
+    width: fit-content;
+    height: auto;
+    column-gap: 0.75rem;
+    justify-items: center;
+}
+
+.right-hero-section{
+    width: 32.25rem;
+    height: 33.35rem;
+}
+
+.picture{
+    max-width: 32.25rem;
+    height: 33.35rem;
+    display: block;
+}
+
+.portfolio-whole-projects{
+    max-width: 100%;
+    height: auto;
+    padding: 1rem 7.5rem 1rem 7.5rem;
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    justify-content: space-between;
+}
+
+.left-project{
+    width: 50%;
+    height:29.313rem ;
+    background-image: url(./Imagess/frame\ project\ \(1\).svg);
+    border-radius: 2rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.left-project:hover{
+    background-image: url(./Imagess/ddfarme\ \(2\).svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text-project{
+    width: fit-content;
+    height: auto;
+    font-size: 1.5rem;
+    padding: 1.5rem 0 0 1rem;
+    font-weight: 900;
+    color: aliceblue;
+}
+
+.right-project{
+    width: 50%;
+    height:29.313rem ;
+    background-image: url(./Imagess/frame\ project\ 2\ \(1\).svg);
+    border-radius: 2rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.right-project:hover{
+    background-image: url(./Imagess/frame\ project\ 2\ \(2\).svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer-section{
+    max-width: 100%;
+    height: auto;
+}
+
+.footer-whole-container{
+    width: 68rem;
+    height: auto;
+    padding: 1rem 7.5rem 1rem 7.5rem;
+    margin: 0 auto;
+    background-image: url(./Imagess/backgroundimage\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2rem;
+}
+
+.footer-work-together{
+    width: fit-content;
+    height: auto;
+    margin: 0 auto;
+    padding: 2rem 0 0 0;
+}
+
+.footer-text{
+    font-size: 32px;
+    font-weight: bolder;
+    color: #131325;
+}
+
+.footer-content-container{
+    width: fit-content;
+    height: auto;
+    margin: 0 auto;
+    padding: 0.75rem 0 2rem 0;
+}
+
+.reach{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #131325;
+}
+
+.buttoon-container{
+    width: fit-content;
+    height: auto;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.thebuttn{
+    font-size: 1.25rem;
+    background-color: #131325;
+    border-style: none;
+    padding: 1rem 2.25rem 1rem 2.25rem;
+    border-radius: 2rem;
+    color: aliceblue;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.thebuttn:hover{
+    background-color: #0C0C33;
+    transform: translateX(2px);
+}
+
+.social-media-container{
+    width: fit-content;
+    height: auto;
+    margin: 0 auto;
+    column-gap: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.icon{
+    column-gap: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.facebook-container{
+    width: fit-content;
+    height: auto;
+    column-gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-design-container{
+    width: fit-content;
+    height: auto;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.designed{
+    font-size: larger;
+    font-weight: 400;
+    color: #131325;
+}
+
+
+
+@media screen and (max-width: 576px){
+    .hero-section{
+        max-width: 100%;
+        height: auto;
+        padding: 1rem 1.125rem 1rem 1.125rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2rem;
+    }
+
+    .left-hero-section{
+        max-width: 100%;
+        height: auto;
+        background-image: url(./Imagess/backgroundimage\ \(1\).svg);
+        padding: 1.1rem;
+        border-radius: 1.875rem;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .hello-content{
+        color: #131325;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .intro-content{
+        color: #131325;
+        font-size: 1rem;
+        font-weight: 400; 
+        margin: 1rem 0 1rem 0;
+        padding: 1rem 0 1rem 0;
+    }
+    
+    .left-bottom-content-container{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1rem;
+        margin: 0 auto;
+    }
+
+    .portfolio-whole-projects{
+        max-width: 100%;
+        height: auto;
+        padding: 1rem 1.125rem 1rem 1.125rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+        justify-content: space-between;
+    }
+
+    .left-project{
+        width: 100%;
+        height:25.313rem ;
+        background-image: url(./Imagess/frame\ project\ \(1\).svg);
+        border-radius: 2rem;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition-property: all;
+        transition-duration: 0.7s;
+        transition-delay: 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+
+    .right-project{
+        width: 100%;
+        height:25.313rem ;
+        background-image: url(./Imagess/frame\ project\ 2\ \(1\).svg);
+        border-radius: 2rem;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat; 
+        transition-property: all;
+        transition-duration: 0.7s;
+        transition-delay: 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+
+
+    .right-hero-section{
+        width: 22.5rem;
+        height: auto;
+    }
+    
+    .picture{
+        max-width: 22.5rem;
+        height: auto;
+        display: block;
+    }
+
+    .footer-section{
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .footer-whole-container{
+        width: 22.5rem;
+        height: auto;
+        padding: 1rem 1.125rem 1rem 1.125rem;
+        margin: 0 auto;
+        background-image: url(./Imagess/backgroundimage\ \(1\).svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 2rem;
+    }
+
+    .footer-work-together{
+        width: fit-content;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    .footer-text{
+        font-size: 32px;
+        font-weight: bolder;
+        color: #131325;
+        margin: 0 auto;
+    }
+    
+    .footer-content-container{
+        width: fit-content;
+        height: auto;
+        margin: 0 auto;
+        padding: 0.75rem 0 2rem 0;
+    }
+    
+    .reach{
+        font-size: 1rem;
+        font-weight: 500;
+        color: #131325;
+    }
+    
+    .buttoon-container{
+        width: fit-content;
+        height: auto;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+
+    .footer-design-container{
+        width: fit-content;
+        height: auto;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+    
+    .designed{
+        font-size: larger;
+        font-weight: 400;
+        color: #131325;
+    }
+}
